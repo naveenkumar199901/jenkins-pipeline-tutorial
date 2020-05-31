@@ -29,17 +29,4 @@ stage('Build') {
     }
 }
     
-    // Here you can define one or more stages for your pipeline.
-    // Each stage can execute one or more steps.
-    stages {
-        // This is a stage.
-        stage('Example') {
-            steps {
-                // This is a step of type "echo". It doesn't do much, only prints some text.
-                echo 'This is a sample stage'
-                // For a list of all the supported steps, take a look at
-                // https://jenkins.io/doc/pipeline/steps/ .
-            }
-        }
-    }
-}
+   }
